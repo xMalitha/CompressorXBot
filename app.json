@@ -1,0 +1,32 @@
+{
+    "name": "CompressorBot",
+    "description": "A Normal Telegram Bot Which can Compress/encode/ Generate Samples of videos.",
+    "logo": "https://telegra.ph/file/9fffc3da8e888a1f46086.jpg",
+    "keywords": ["Telegram","python", "Video","Compressor","Encoder"],
+    "repository": "https://github.com/xMalitha/CompressorXBot",
+    "success_url": "https://t.me/Team_silent",
+    "stack": "container",
+    "env": {
+        "APP_ID": {
+            "description": "You api id, from my.telegram.org or @apiScrapperRoBot.",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "You api hash, from my.telegram.org or @apiScrapperRoBot.",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Make a bot from @BotFather, and enter it's api token here.",
+            "value": ""
+        },
+        "LOG_CHANNEL": {
+            "description": "Create a private group/channel. Add @missrose_bot and your bot + make admin. Do /id. Paste that here",
+             "value": ""
+        },
+        "OWNER_ID": {
+            "description": "Get ur Id Of Telegram nd Paste Here.",
+            "value": "",
+            "required": false
+        }
+    }
+}
