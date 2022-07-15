@@ -17,7 +17,7 @@ async def up(event):
 async def start(event):
     ok = await event.client(GetFullUserRequest(event.sender_id))
     await event.reply(
-        f"Hi `{ok.user.first_name}`\nᴛʜɪs ɪs ᴀ ᴄᴏᴍᴘʀᴇssᴏʀʙᴏᴛ ᴡʜɪᴄʜ ᴄᴀɴ ᴇɴᴄᴏᴅᴇ ᴠɪᴅᴇᴏs.\nʀᴇᴅᴜᴄᴇ sɪᴢᴇ ᴏғ ᴠɪᴅᴇᴏs ᴡɪᴛʜ ɴᴇɢʟɪɢɪʙʟᴇ ǫᴜᴀʟɪᴛʏ ᴄʜᴀɴɢᴇ\nᴜ ᴄᴀɴ ɢᴇɴᴇʀᴀᴛᴇ sᴀᴍᴘʟᴇs/sᴄʀᴇᴇɴsʜᴏᴛs ᴛᴏᴏ. 🎉\n🚀 ʙᴏᴛ ʙʏ : @SILENT_DEVS\n👨‍💻ᴅᴇᴠᴇʟᴏᴘᴇʀ : @xMalitha ",
+        f"Hi `{ok.user.first_name}`\nᴛʜɪs ɪs ᴀ ᴄᴏᴍᴘʀᴇssᴏʀʙᴏᴛ ᴡʜɪᴄʜ ᴄᴀɴ ᴇɴᴄᴏᴅᴇ ᴠɪᴅᴇᴏs.\nʀᴇᴅᴜᴄᴇ sɪᴢᴇ ᴏғ ᴠɪᴅᴇᴏs ᴡɪᴛʜ ɴᴇɢʟɪɢɪʙʟᴇ ǫᴜᴀʟɪᴛʏ ᴄʜᴀɴɢᴇ\nᴜ ᴄᴀɴ ɢᴇɴᴇʀᴀᴛᴇ sᴀᴍᴘʟᴇs/sᴄʀᴇᴇɴsʜᴏᴛs ᴛᴏᴏ. 🎉\n🚀 ʙᴏᴛ ʙʏ : @AlphaTm_Botz\n👨‍💻ᴅᴇᴠᴇʟᴏᴘᴇʀ : @xMalitha ",
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
